@@ -1,0 +1,146 @@
+@media  (max-width: 510px){
+    .cardBateau{
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+        width: 250px;
+
+        h6{
+            font-size: 2.0vw;
+        }
+        p{
+            font-size: 1.5vw;
+        }  
+
+    }
+    .cardEquipage{
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.4);    
+        .equipageImg img{
+            max-height: 25%;
+            width: 50%;
+        } 
+    .container{
+        width: 100%;
+    }
+    .verification{
+        margin-top: 20%;
+    }
+}
+}
+ @media  (min-width: 511px) {
+/* Card Bateau */
+    .cardBateau{
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+        width: 250px;
+
+        h6{
+            font-size: 2.0vw;
+        }
+        p{
+            font-size: 1.5vw;
+        }  
+
+    }
+    .BateauImg{
+        background-image: url('/images/yatch1.jpg');
+        height: 15vh;
+    }
+
+    .navBar {
+        font-size:large;
+    }
+    .infobateau{ 
+        h2{
+            font-size: 5.0vw;
+        }
+        h6{
+            font-size: 2.7vw;
+            font-weight: bold;
+        }
+        p{
+            font-size: 2.5vw;
+        }
+    }
+    .icono{
+        width: 30%;
+    }
+    .verification{
+        margin-top: 0%;
+    }
+  
+/*card Equipage*/
+    .cardEquipage{
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.4);    
+        .equipageImg img{
+            max-height: 30%;
+            width: 60%;
+        }      
+    }
+}
+    
+
+
+  @media  (min-width: 898px) {
+    .navBar{
+        font-size:medium;
+    }
+    /*card bateau*/
+    .cardBateau{
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+        width: 30%;
+    }
+        .BateauImg{
+            background-image: url('/images/yatch1.jpg');
+            height: 30vh;
+        }
+        .cardBateau h6{
+            font-size: 1.6vw;
+        }
+        .cardBateau p{
+            font-size: 1.5vw;
+        }
+/* card Equipage*/
+        .cardEquipage{
+            box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+        
+           
+        }
+            .equipageImg img{
+                width: 50%;
+            }
+        
+      
+    }
+ 
+    @media  (min-width: 1024px){
+        .cardEquipage{
+            box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+        font-size: 13px;
+        } .equipageImg img{
+            width: 100%;
+        }
+    }    
+    @media  (min-width: 1200px) {
+        .carrousel2 img {
+                 width: 80%;
+                 height: 500px;
+               
+             }
+         .navBar{
+            font-size:large;
+        }
+        .cardEquipage{
+            box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+            font-size: 15px;
+        }
+            .equipageImg img{
+                max-height: auto;
+                width: 100%;
+            }
+        
+      
+    }
+          
+    
+
+ 
+
+
